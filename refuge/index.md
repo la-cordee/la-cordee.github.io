@@ -1,0 +1,12 @@
+# Quoi de neuf sur le **Refuge** ?
+
+## 3 janvier 2017
+
+Cette version offre quelques améliorations de design, des corrections de bugs,
+et surtout une importante amélioration des **Notifications** :
+
+- possibilité de régler la fréquence d'envoi des mails récapitulatifs
+- possibilité de dire "J'ai tout lu !"
+- chargement dynamique des notifications (avec le bouton "Charger les notifications précédentes")
+- les notifications lues ne sont plus supprimées chaque jour (seules les notifications expirées sont supprimées)
+- amélioration du design
