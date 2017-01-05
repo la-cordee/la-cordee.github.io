@@ -1,4 +1,4 @@
 # la-cordee.github.io
 
 - [Le Refuge](./refuge/)
-- [Le Refuge Admin](./refuge/admin/)
+- [Le Refuge Admin](./refuge_admin/)
