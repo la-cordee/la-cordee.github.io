@@ -14,9 +14,13 @@
   <body>
     <div class="wrapper">
       <header>
-        <a class="tag" href="/"><h1>{{ site.title | default: site.github.repository_name }}</h1></a>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <div id="headers">
+          <h1><a class="tag" href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
+          <p>{{ site.description | default: site.github.project_tagline }}</p>
+        </div>
+      </header>
 
+      <div id="menu">
         <nav>
           <ul>
             <li>
@@ -27,14 +31,14 @@
             </li>
           </ul>
         </nav>
-      </header>
+      </div>
+
       <section>
-
-      {{ content }}
-
+        {{ content }}
       </section>
+
       <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small>Hébergé sur GitHub Pages &mdash; Thème par <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
