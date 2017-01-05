@@ -4,17 +4,6 @@ body
 header
   width: 250px
   #headers
-
-    position: relative
-    top: 200px
-    left: 113px
-    white-space: nowrap
-
-    -webkit-transform: rotate(-90deg)
-    -moz-transform: rotate(-90deg)
-    -o-transform: rotate(-90deg)
-    -ms-transform: rotate(-90deg)
-    transform: rotate(-90deg)
     h1
       margin: 0
       a
@@ -28,7 +17,6 @@ header
       text-decoration: underline
 
 #menu
-  float: right
   width: 550px
   position: relative
   top: -20px
@@ -63,3 +51,19 @@ h1
 
 h2
   font-size: 1.4em
+
+@media print, screen and (min-width: 960px)
+  header #headers
+    position: relative
+    top: 200px
+    left: 113px
+    white-space: nowrap
+
+    -webkit-transform: rotate(-90deg)
+    -moz-transform: rotate(-90deg)
+    -o-transform: rotate(-90deg)
+    -ms-transform: rotate(-90deg)
+    transform: rotate(-90deg)
+
+  #menu
+    float: right
