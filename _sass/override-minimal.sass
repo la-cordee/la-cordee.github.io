@@ -1,0 +1,98 @@
+// revert the ul nonsense in this theme
+// header ul, header li, header li:first-child a, header li:last-child a, header ul a
+//   all: unset
+
+header
+  width: 250px
+
+  h1
+    position: relative
+    top: 135px
+    left: 140px
+    color: #f3f3f3
+    overflow: hidden
+    white-space: nowrap
+
+    -webkit-transform: rotate(-90deg)
+    -moz-transform: rotate(-90deg)
+    -o-transform: rotate(-90deg)
+    -ms-transform: rotate(-90deg)
+    transform: rotate(-90deg)
+
+    ul
+      li
+        a
+          text-decoration: underline
+
+section
+  width: 550px
+
+
+h1
+  font-size: 26px
+
+h2
+  font-size: 1.4em
+
+
+
+
+
+
+
+
+header ul
+  list-style: circle
+  height: inherit
+  padding: inherit
+  background: none
+  border: none
+  // width: 270px
+
+
+header li
+  all: unset
+  float: none
+
+//
+// header li:first-child a
+//   border-radius: 5px 0 0 5px
+//
+//
+// header li:last-child a
+//   border-radius: 0 5px 5px 0
+
+
+header ul a
+  all: unset
+  // line-height: 1
+  // font-size: 11px
+  // color: #999
+  display: block
+  // text-align: center
+  // padding-top: 6px
+  // height: 34px
+
+
+header ul a:hover
+  color: #999
+
+
+header ul a:active
+  background-color: #f0f0f0
+
+
+strong
+  color: #222
+  font-weight: 700
+
+
+header ul li + li + li
+  border-right: none
+  width: 89px
+
+
+header ul a strong
+  font-size: 14px
+  display: block
+  color: #222
