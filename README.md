@@ -1,4 +1,5 @@
 # la-cordee.github.io
+Blog basé sur Jekyll
 
-- [Le Refuge](./refuge/)
-- [Le Refuge Admin](./refuge_admin/)
+Le système de tag est basé sur ce hack :
+https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/
