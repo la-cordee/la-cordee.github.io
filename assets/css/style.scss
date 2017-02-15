@@ -3,3 +3,9 @@
 
 @import "jekyll-theme-minimal";
 @import "override-minimal";
+
+#posts h2 {
+  font-size: 1.2em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
