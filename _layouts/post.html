@@ -4,24 +4,26 @@ TODO: fix bug: when removing this comment, the first line of a post is displayed
 =======================
 {% endcomment %}
 
-<h2>
-{% assign m = page.date | date: "%-m" %}
-{% case m %}
-  {% when '1' %}janvier
-  {% when '2' %}février
-  {% when '3' %}mars
-  {% when '4' %}avril
-  {% when '5' %}mai
-  {% when '6' %}juin
-  {% when '7' %}juillet
-  {% when '8' %}août
-  {% when '9' %}septembre
-  {% when '10' %}octobre
-  {% when '11' %}novembre
-  {% when '12' %}décembre
-{% endcase %}{{ page.date | date: "%Y" }}
-{% if page.title != empty %}
-   &mdash; {{ page.title }}
-{% endif %}
-</h2>
+<div class="month">
+  <h2>
+  {% assign m = page.date | date: "%-m" %}
+  {% case m %}
+    {% when '1' %}janvier
+    {% when '2' %}février
+    {% when '3' %}mars
+    {% when '4' %}avril
+    {% when '5' %}mai
+    {% when '6' %}juin
+    {% when '7' %}juillet
+    {% when '8' %}août
+    {% when '9' %}septembre
+    {% when '10' %}octobre
+    {% when '11' %}novembre
+    {% when '12' %}décembre
+  {% endcase %}{{ page.date | date: "%Y" }}
+  {% if page.title != empty %}
+     &mdash; {{ page.title }}
+  {% endif %}
+  </h2>
   <article>{{ page.content }}</article>
+</div>
