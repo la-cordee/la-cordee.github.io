@@ -1,5 +1,5 @@
 title: la-cordee.github.io
 description: Le blog technique de la Cordée
 theme: jekyll-theme-minimal
-gems:
+plugins:
   - jekyll-redirect-from
